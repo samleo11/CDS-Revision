@@ -57,6 +57,17 @@ tr:last-child td{border-bottom:0}
   a{color:inherit;text-decoration:none}
   @page{size:A4;margin:9mm}
 }
+
+.practice{margin-top:14px}
+.practice details{background:#fff;border:1px solid var(--line);border-radius:12px;margin:8px 0;overflow:hidden}
+.practice summary{cursor:pointer;padding:11px 13px;font-weight:850;color:#173e86}
+.practice .answer{padding:0 13px 12px;color:var(--muted);font-size:12.5px}
+.practice .qno{color:var(--teal);font-weight:900}
+@media print{
+  .practice details{break-inside:avoid}
+  .practice details[open] summary{border-bottom:1px solid var(--line)}
+}
+
 </style>
 </head>
 <body>
@@ -68,20 +79,56 @@ tr:last-child td{border-bottom:0}
   <div class="legend"><span class="pill">⭐ MUST REMEMBER</span><span class="pill">⚠️ CDS TRAP</span><span class="pill">PRIMARY-SOURCE FOCUS</span></div>
 </header>
 
-<div class="section"><div><h2>01 · Important International / World Days</h2><p>10 additional high-yield observances beyond 15 Sep, 5 Jun and 21 Jun.</p></div></div>
 
-<div class="grid">
-  <article class="card"><div class="date">4 JAN</div><div class="title">World Braille Day</div><div class="small"><b>UNGA • A/RES/73/161 • 2018</b></div><p>Recognises Braille as important for communication, education, information access and inclusion of persons with visual impairment.</p><div class="trap">⚠️ <b>TRAP:</b> 4 Jan = Braille; 3 Dec = Persons with Disabilities.</div></article>
-  <article class="card"><div class="date">11 FEB</div><div class="title">International Day of Women and Girls in Science</div><div class="small"><b>UNGA • A/RES/70/212 • 2015</b></div><p>Promotes full and equal access and participation of women and girls in science, technology and innovation.</p><div class="trap">⚠️ <b>TRAP:</b> 11 Feb ≠ International Women's Day (8 Mar).</div></article>
-  <article class="card"><div class="date">22 MAR</div><div class="title">World Water Day</div><div class="small"><b>UNGA • A/RES/47/193 • 1992</b></div><p>Focuses attention on freshwater, water security and sustainable management.</p><div class="trap">⚠️ <b>TRAP:</b> 22 Mar = Water; 5 Jun = Environment.</div></article>
-  <article class="card"><div class="date">24 MAR</div><div class="title">World Tuberculosis Day</div><div class="small"><b>WHO-led observance • 24 Mar</b></div><p>Marks Robert Koch’s 1882 announcement of the discovery of the TB bacillus and mobilises action against TB.</p><div class="trap">⚠️ <b>TRAP:</b> 24 Mar = TB; 7 Apr = World Health Day.</div></article>
-  <article class="card"><div class="date">7 APR</div><div class="title">World Health Day</div><div class="small"><b>WHO • WHO Constitution in force, 1948</b></div><p>Marks the anniversary of the WHO Constitution coming into force and highlights a major global health theme each year.</p><div class="trap">⚠️ <b>TRAP:</b> 7 Apr = Health; 31 May = No Tobacco; 1 Dec = AIDS.</div></article>
-  <article class="card"><div class="date">3 MAY</div><div class="title">World Press Freedom Day</div><div class="small"><b>UNGA • proclaimed 1993, following UNESCO recommendation</b></div><p>Highlights press freedom and recalls the Declaration of Windhoek (1991).</p><div class="trap">⚠️ <b>TRAP:</b> 3 May = Press Freedom; UNESCO connection is key.</div></article>
-  <article class="card"><div class="date">12 JUN</div><div class="title">World Day Against Child Labour</div><div class="small"><b>ILO • launched 2002</b></div><p>Raises awareness of the global extent of child labour and the action needed to eliminate it.</p><div class="trap">⚠️ <b>TRAP:</b> 12 Jun = Child Labour; 20 Nov = World Children's Day.</div></article>
-  <article class="card"><div class="date">2 OCT</div><div class="title">International Day of Non-Violence</div><div class="small"><b>UNGA • A/RES/61/271 • 2007</b></div><p>Observed on Mahatma Gandhi’s birthday to disseminate the message of non-violence through education and public awareness.</p><div class="must">⭐ <b>INDIA HOOK:</b> Resolution was introduced in the GA on behalf of 140 co-sponsors by India’s Anand Sharma.</div></article>
-  <article class="card"><div class="date">3 DEC</div><div class="title">International Day of Persons with Disabilities</div><div class="small"><b>UNGA • A/RES/47/3 • 1992</b></div><p>Promotes dignity, rights, well-being and full integration of persons with disabilities in society and development.</p><div class="trap">⚠️ <b>TRAP:</b> 3 Dec = disability; 4 Jan = Braille.</div></article>
-  <article class="card"><div class="date">10 DEC</div><div class="title">Human Rights Day</div><div class="small"><b>UNGA • A/RES/423(V) • 1948</b></div><p>Commemorates the adoption/proclamation of the Universal Declaration of Human Rights on 10 Dec 1948.</p><div class="must">⭐ <b>HOOK:</b> UDHR was proclaimed by the UNGA in Paris.</div></article>
+<div class="section"><div><h2>01 · Important International / World Days</h2><p>Exactly the requested 21 observances — earlier dates removed. Use the association column as the CDS recall hook.</p></div></div>
+<table>
+<thead><tr><th>Date</th><th>International Day</th><th>Key Association</th></tr></thead>
+<tbody>
+<tr><td><b>24 JAN</b></td><td class="person">International Day of Education</td><td>United Nations / education</td></tr>
+<tr><td><b>4 FEB</b></td><td class="person">World Cancer Day</td><td>World Health Organization (WHO) / health</td></tr>
+<tr><td><b>8 MAR</b></td><td class="person">International Women’s Day</td><td>United Nations / women</td></tr>
+<tr><td><b>22 MAR</b></td><td class="person">World Water Day</td><td>United Nations / water</td></tr>
+<tr><td><b>7 APR</b></td><td class="person">World Health Day</td><td>World Health Organization (WHO)</td></tr>
+<tr><td><b>22 APR</b></td><td class="person">International Mother Earth Day</td><td>United Nations / environment</td></tr>
+<tr><td><b>3 MAY</b></td><td class="person">World Press Freedom Day</td><td>United Nations Educational, Scientific and Cultural Organization (UNESCO)</td></tr>
+<tr><td><b>5 JUN</b></td><td class="person">World Environment Day</td><td>United Nations Environment Programme (UNEP)</td></tr>
+<tr><td><b>17 JUN</b></td><td class="person">World Day to Combat Desertification and Drought</td><td>United Nations Convention to Combat Desertification (UNCCD)</td></tr>
+<tr><td><b>21 JUN</b></td><td class="person">International Day of Yoga</td><td>India’s initiative / United Nations</td></tr>
+<tr><td><b>30 JUN</b></td><td class="person">International Day of Parliamentarism</td><td>Inter-Parliamentary Union (IPU)</td></tr>
+<tr><td><b>15 JUL</b></td><td class="person">World Youth Skills Day</td><td>Youth / skills</td></tr>
+<tr><td><b>12 AUG</b></td><td class="person">International Youth Day</td><td>United Nations / youth</td></tr>
+<tr><td><b>29 AUG</b></td><td class="person">International Day against Nuclear Tests</td><td>United Nations / nuclear disarmament</td></tr>
+<tr><td><b>8 SEP</b></td><td class="person">International Literacy Day</td><td>United Nations Educational, Scientific and Cultural Organization (UNESCO)</td></tr>
+<tr><td><b>15 SEP</b></td><td class="person">International Day of Democracy</td><td>United Nations General Assembly (UNGA)</td></tr>
+<tr><td><b>21 SEP</b></td><td class="person">International Day of Peace</td><td>United Nations</td></tr>
+<tr><td><b>2 OCT</b></td><td class="person">International Day of Non-Violence</td><td>Mahatma Gandhi / United Nations</td></tr>
+<tr><td><b>24 OCT</b></td><td class="person">United Nations Day</td><td>United Nations Charter / UN founded</td></tr>
+<tr><td><b>9 DEC</b></td><td class="person">International Anti-Corruption Day</td><td>United Nations Convention against Corruption (UNCAC)</td></tr>
+<tr><td><b>10 DEC</b></td><td class="person">Human Rights Day</td><td>Universal Declaration of Human Rights (UDHR)</td></tr>
+</tbody>
+</table>
+<div class="note">Exam-safe note: the association column is a revision hook. It does not mean every organisation shown formally administers the observance. World Cancer Day, for example, is a global cancer-awareness day led by the Union for International Cancer Control (UICC), with major WHO/health-system involvement; “WHO / health” is retained here as the requested CDS hook.</div>
+
+<div class="section"><div><h2>04 · CDS PYQ-Inspired Practice</h2><p>Built from the recurring 2021–2025 CDS formats: direct-date questions, match-the-pair, statement-based identification and organisation-linkage.</p></div></div>
+<div class="practice">
+<details><summary><span class="qno">Q1.</span> 24 January is observed as which of the following?</summary><div class="answer"><b>Answer:</b> International Day of Education. The United Nations General Assembly proclaimed 24 January as the International Day of Education.</div></details>
+<details><summary><span class="qno">Q2.</span> Consider the following pairs: 1. 22 March — World Water Day; 2. 5 June — World Environment Day; 3. 17 June — World Day to Combat Desertification and Drought. How many are correctly matched?</summary><div class="answer"><b>Answer:</b> All three. This is a CDS-style match/association recall pattern.</div></details>
+<details><summary><span class="qno">Q3.</span> World Press Freedom Day is observed on 3 May. Which organisation has the strongest institutional association with this observance?</summary><div class="answer"><b>Answer:</b> United Nations Educational, Scientific and Cultural Organization (UNESCO). The observance follows UNESCO’s recommendation and is closely associated with the 1991 Windhoek Declaration.</div></details>
+<details><summary><span class="qno">Q4.</span> The International Day of Yoga is observed on 21 June. Which country played the leading role in proposing the observance at the United Nations?</summary><div class="answer"><b>Answer:</b> India. The United Nations General Assembly adopted the relevant resolution in 2014 following India’s initiative.</div></details>
+<details><summary><span class="qno">Q5.</span> 30 June is observed as the International Day of Parliamentarism because it is associated with the founding of which organisation?</summary><div class="answer"><b>Answer:</b> Inter-Parliamentary Union (IPU), founded on 30 June 1889.</div></details>
+<details><summary><span class="qno">Q6.</span> Which one of the following pairs is NOT correctly matched? (a) 15 July — World Youth Skills Day (b) 12 August — International Youth Day (c) 29 August — International Day against Nuclear Tests (d) 8 September — International Day of Democracy</summary><div class="answer"><b>Answer:</b> (d). 8 September is International Literacy Day; International Day of Democracy is 15 September.</div></details>
+<details><summary><span class="qno">Q7.</span> The International Day against Nuclear Tests is observed on 29 August. Which broad theme is most directly associated with it?</summary><div class="answer"><b>Answer:</b> Nuclear disarmament, non-proliferation and the cessation of nuclear testing.</div></details>
+<details><summary><span class="qno">Q8.</span> Which day is observed on 15 September? (a) International Day of Peace (b) International Day of Democracy (c) International Literacy Day (d) International Anti-Corruption Day</summary><div class="answer"><b>Answer:</b> (b) International Day of Democracy.</div></details>
+<details><summary><span class="qno">Q9.</span> Which of the following statements about women freedom fighters is correct? (a) Usha Mehta is associated with Congress Radio (b) Captain Lakshmi Sahgal led the Rani of Jhansi Regiment (c) Sucheta Kriplani became India’s first woman Chief Minister (d) All of the above</summary><div class="answer"><b>Answer:</b> (d) All of the above.</div></details>
+<details><summary><span class="qno">Q10.</span> “Since wars begin in the minds of men…” is a famous phrase from the Constitution of which UN specialised agency?</summary><div class="answer"><b>Answer:</b> United Nations Educational, Scientific and Cultural Organization (UNESCO).</div></details>
+<details><summary><span class="qno">Q11.</span> “Atoms for Peace” is most closely associated with which organisation?</summary><div class="answer"><b>Answer:</b> International Atomic Energy Agency (IAEA).</div></details>
+<details><summary><span class="qno">Q12.</span> Which UN body has the primary responsibility for the maintenance of international peace and security under Article 24 of the UN Charter?</summary><div class="answer"><b>Answer:</b> United Nations Security Council (UNSC).</div></details>
 </div>
+<div class="callout" style="margin-top:14px;background:var(--blue2);border-color:#bfd2f4">
+<h3>⭐ What the CDS PYQs suggest</h3>
+<p>Across the 2021–2025 papers, the exam repeatedly rewards <b>date ↔ observance</b>, <b>observance ↔ organisation</b>, <b>match-the-pair</b>, and <b>distinctive institutional phrase ↔ organisation</b> recall. CDS-I 2025 directly asked the date of the <b>International Day of Democracy</b>; CDS-II 2023 tested <b>International Day of Yoga themes</b>; and CDS papers also use organisation-identification questions built around distinctive constitutional or founding phrases.</p>
+</div>
+
 
 <div class="section"><div><h2>02A · Women Freedom Fighters</h2><p>None of the following received the Bharat Ratna.</p></div></div>
 <table>
@@ -145,8 +192,10 @@ tr:last-child td{border-bottom:0}
 <div class="final">
 <h2>30-Second Final Revision</h2>
 <ul>
-<li><b>4 Jan</b> Braille • <b>11 Feb</b> Women/Girls in Science • <b>22 Mar</b> Water • <b>24 Mar</b> TB • <b>7 Apr</b> Health.</li>
-<li><b>3 May</b> Press Freedom • <b>12 Jun</b> Child Labour • <b>2 Oct</b> Non-Violence/Gandhi • <b>3 Dec</b> Disability • <b>10 Dec</b> Human Rights.</li>
+<li><b>24 Jan</b> Education • <b>4 Feb</b> Cancer • <b>8 Mar</b> Women • <b>22 Mar</b> Water • <b>7 Apr</b> Health • <b>22 Apr</b> Mother Earth.</li>
+<li><b>3 May</b> Press Freedom • <b>5 Jun</b> Environment • <b>17 Jun</b> Desertification &amp; Drought • <b>21 Jun</b> Yoga • <b>30 Jun</b> Parliamentarism • <b>15 Jul</b> Youth Skills.</li>
+<li><b>12 Aug</b> Youth • <b>29 Aug</b> Nuclear Tests • <b>8 Sep</b> Literacy • <b>15 Sep</b> Democracy • <b>21 Sep</b> Peace • <b>2 Oct</b> Non-Violence.</li>
+<li><b>24 Oct</b> UN Day • <b>9 Dec</b> Anti-Corruption • <b>10 Dec</b> Human Rights.</li>
 <li><b>Women BR:</b> Indira 1971 → Mother Teresa 1980 → Aruna Asaf Ali 1997 → M.S. Subbulakshmi 1998 → Lata Mangeshkar 2001.</li>
 <li><b>Freedom-fighter hooks:</b> Usha Mehta–Congress Radio; Lakshmi Sahgal–Rani Jhansi Regiment; Rani Gaidinliu–Heraka; Sucheta–first woman CM; Kamaladevi–first woman to contest Madras provincial legislative seat; Begum Hazrat Mahal–Awadh 1857.</li>
 <li><b>Phrase → organisation:</b> minds of men/peace → UNESCO; social justice/lasting peace → ILO; highest attainable health → WHO; Atoms for Peace → IAEA; monetary cooperation → IMF; reconstruction & development → IBRD; every child/every right → UNICEF; every pregnancy wanted → UNFPA.</li>
@@ -156,9 +205,10 @@ tr:last-child td{border-bottom:0}
 
 <div class="section"><div><h2>Research sources</h2><p>Primary / official sources used for verification.</p></div></div>
 <div class="card sources">
-<p><b>UN observances:</b> <a href="https://www.un.org/en/observances/list-days-weeks">UN International Days list</a>; <a href="https://www.un.org/en/observances/non-violence-day">Non-Violence Day</a>; <a href="https://www.un.org/en/observances/braille-day/background">World Braille Day</a>; <a href="https://www.un.org/en/observances/press-freedom-day">World Press Freedom Day</a>; <a href="https://www.un.org/en/observances/world-day-against-child-labour/background">Child Labour Day</a>; <a href="https://www.un.org/observances/human-rights-day">Human Rights Day</a>; <a href="https://www.un.org/development/desa/disabilities/international-day-of-persons-with-disabilities%203%20december.html">Disability Day</a>.</p>
+<p><b>International days:</b> <a href="https://www.un.org/en/observances/list-days-weeks">United Nations — International Days and Weeks</a>; <a href="https://www.un.org/en/observances/education-day">International Day of Education</a>; <a href="https://www.who.int/southeastasia/news/detail/04-02-2026-world-cancer-day">World Cancer Day — WHO</a>; <a href="https://www.un.org/en/observances/womens-day">International Women’s Day</a>; <a href="https://www.un.org/en/observances/parliamentarism-day">International Day of Parliamentarism</a>; <a href="https://www.un.org/en/observances/end-nuclear-tests-day">International Day against Nuclear Tests</a>; <a href="https://www.un.org/en/observances/anti-corruption-day">International Anti-Corruption Day</a>; <a href="https://www.un.org/en/observances/un-day/">United Nations Day</a>; <a href="https://www.un.org/en/observances/earth-day/background">International Mother Earth Day</a>; <a href="https://www.un.org/en/observances/international-day-peace">International Day of Peace</a>.</p>
 <p><b>UN / agencies:</b> <a href="https://www.unesco.org/en/articles/international-peace-and-security">UNESCO Constitution phrase</a>; <a href="https://www.who.int/about/governance/constitution">WHO Constitution</a>; <a href="https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB:62:0:::P62_LIST_ENTRIE_ID:2453907">ILO Constitution</a>; <a href="https://www.fao.org/4/x5584e/x5584e0i.htm">FAO Constitution</a>; <a href="https://www.iaea.org/newscenter/statements/atoms-peace-21st-century-0">IAEA mandate</a>; <a href="https://www.imf.org/en/publications/ft/aa/index">IMF Articles of Agreement</a>; <a href="https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-I">IBRD Article I</a>; <a href="https://www.unfpa.org/about-us">UNFPA</a>; <a href="https://www.unicef.org/child-rights-convention">UNICEF / CRC</a>; <a href="https://emergency.unhcr.org/entry/55601/unhcrs-mandate-for-refugees-stateless-persons-and-idps">UNHCR mandate</a>; <a href="https://www.unep.org/who-we-are/about-us">UNEP</a>; <a href="https://www.wto.org/english/thewto_e/whatis_e/whatis_e.htm">WTO</a>; <a href="https://main.un.org/securitycouncil/en/content/repertoire/functions-and-powers">UNSC</a>; <a href="https://www.un.org/en/about-us/un-charter/full-text">UN Charter</a>.</p>
 <p><b>India / awards:</b> <a href="https://awards.gov.in/Awardee">Government of India Awards Portal</a>; <a href="https://presidentofindia.nic.in/press_releases/president-india-presents-bharat-ratna">President of India — Bharat Ratna</a>; <a href="https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=149534">PIB — Mother Teresa</a>; <a href="https://origin1-padma.padmaawards.gov.in/Document/pdf/Notifications/BharatRatna/2001BR.pdf">Gazette notification — Lata Mangeshkar, 2001</a>; <a href="https://amritmahotsav.nic.in/">Azadi Ka Amrit Mahotsav / Ministry of Culture</a>.</p>
+<p><b>CDS PYQ research:</b> <a href="https://www.upsc.gov.in/examinations/previous-question-papers">UPSC Previous Question Papers</a> and the official CDS-II 2025 examination page were cross-checked; question-pattern references also included the 2021–2025 CDS papers available in reputable solved-paper archives. The most directly relevant verified examples include CDS-I 2025 on the International Day of Democracy and CDS-II 2023 on International Day of Yoga themes.</p>
 <div class="note">Exam-safe note: where an organisation has a famous phrase but it is not itself a formal “motto”, this sheet labels it as a constitutional/founding phrase or verified mandate rather than manufacturing a motto.</div>
 </div>
 </div>
